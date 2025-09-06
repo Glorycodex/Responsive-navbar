@@ -6,7 +6,11 @@
 
 body{
     font-family: Arial, sans-serif;
+    /* scroll-behavior: smooth; */
 }
+
+
+
 
 /* Navbar Container */
 
@@ -113,6 +117,59 @@ body{
 }
 
 
+/* About Style */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.about p{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* Services Style */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #333;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.service-card img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+.service-card h4{
+    color: #f6f4f4;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
 /* Mobile Device Screen Styling */
 @media(max-width: 768px){
     .nav-links{
@@ -135,6 +192,14 @@ body{
 
     .hamburger{
         display: flex;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: fit-content;
+        padding: 50px 10px;
     }
 }
 
