@@ -17,6 +17,7 @@ body{
     padding: 1rem 2rem;
     background: #333;
     color: #fff;
+    z-index: 1001;
 }
 
 
@@ -71,6 +72,8 @@ body{
     align-items: center;
     gap: 20px;
     height: 350px;
+    text-align: center;
+    padding: 10px;
     
     /* Overlay */
     position: relative;
@@ -122,6 +125,7 @@ body{
         height: 0;
         overflow: hidden;
         transition: height 0.3s ease-in;
+        z-index: 1001;
     }
 
     .nav-links.open{
