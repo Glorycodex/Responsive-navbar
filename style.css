@@ -58,7 +58,56 @@ body{
     color: #ff9800;
 }
 
+/* Hero Section Style */
 
+.hero-section{
+    background-image: url(assets/pexels-negativespace-34600.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 350px;
+    
+    /* Overlay */
+    position: relative;
+    z-index: 1;
+
+
+    &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+}
+
+
+
+.hero-title{
+    color: #fff;
+}
+
+
+
+.hero-sub-text{
+    color: #f6f4f4;
+    font-weight: 500;
+}
+
+
+
+.hero-section{
+    color: #f6f4f4;
+}
 
 
 /* Mobile Device Screen Styling */
@@ -84,3 +133,4 @@ body{
         display: flex;
     }
 }
+
