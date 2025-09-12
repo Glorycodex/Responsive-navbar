@@ -200,6 +200,54 @@ body{
         gap: 15px;
         height: fit-content;
         padding: 50px 10px;
+        
     }
 }
 
+
+
+
+
+.top{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.brand h1{
+  font-weight: 600;
+  color: var(--White);  
+}
+
+.site-map h4{
+  font-style: italic;
+  color: var(--White);
+  font-weight: 400;
+}
+
+.site-map ul li{
+  text-decoration: none;
+  color: black;
+}
+
+.site-map ul li{
+  list-style: none;
+}
+
+.site-map ul li a{
+  text-decoration: none;
+  color: #dedddd;
+  font-size: 12px;
+}
+
+
+.sub-btn{
+   width: 60%;
+   border: 0.5px solid;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   background-image: linear-gradient(to right, red, blue)
+}
